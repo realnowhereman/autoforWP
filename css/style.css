@@ -98,13 +98,18 @@ a:hover {
 }
 
 .header__social {
-  padding: 70px 0 20px 65px;
+  padding: 70px 0 20px 70px;
   display: flex;
   align-items: center;
 }
 
-.header__social-link {
-  margin-right: 10px;
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social__link {
+  margin: 0 5px;
 }
 
 
@@ -419,6 +424,20 @@ a:hover {
 .contacts__btn {
   display: block;
   margin: 0 auto;
-  margin-top: 75px;
-  
+  margin-top: 75px; 
+}
+
+/* ==========footer============================================================ */
+
+.footer {
+  background-color: #21062A;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  height: 100px;
+
 }
