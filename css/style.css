@@ -4,13 +4,16 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Oswald", sans-serif;
   font-size: 18px;
   line-height: 27px;
   font-weight: 300;
   color: #2C2B2B;
-  scroll-behavior: smooth;
 }
 
 a {
